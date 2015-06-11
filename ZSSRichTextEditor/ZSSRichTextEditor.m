@@ -81,7 +81,7 @@ static Class hackishFixClass = Nil;
 @property (nonatomic, strong) UIToolbar *toolbar;
 @property (nonatomic, strong) UIView *toolbarHolder;
 @property (nonatomic, strong) NSString *htmlString;
-@property (nonatomic, strong) UIWebView *editorView;
+//@property (nonatomic, strong) UIWebView *editorView;
 @property (nonatomic, strong) ZSSTextView *sourceView;
 @property (nonatomic) CGRect editorViewFrame;
 @property (nonatomic) BOOL resourcesLoaded;
@@ -1343,3 +1343,4 @@ static Class hackishFixClass = Nil;
 
 
 @end
+
