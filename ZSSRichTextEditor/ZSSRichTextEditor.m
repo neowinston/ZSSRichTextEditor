@@ -559,9 +559,9 @@ static Class hackishFixClass = Nil;
     
     self.internalHTML = html;
     
-    if (self.editorLoaded) {
+    //if (self.editorLoaded) {
         [self updateHTML];
-    }
+    //}
     
 }
 
